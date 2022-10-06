@@ -1,0 +1,73 @@
+.pictureContainer {
+    margin: 0 auto;
+}
+
+#pictureAPOD {
+    background-color: rgba(0, 0, 0, 0.900);
+    width: fit-content;
+    height: fit-content;
+    padding: 3% 5%;
+    max-width: 89vw;
+    max-height: 92vh;
+    border-radius: 16px;
+    box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poster {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    height: 95vh;
+    max-height: 100vh;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#posterTitle {
+    color: rgba(24, 0, 46, 0.849);
+    cursor: context-menu;
+}
+
+#aboutPicture {
+    margin: 0 auto;
+    padding: 3% 0;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: rgb(24, 0, 63);
+    width: 80%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    figure {
+        margin: 0 auto;
+    }
+    
+    #aboutPicture {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .pictureAPOD {
+        margin-top: 50%;
+    }
+}
+
+@media (max-width: 420px) {
+    figure {
+        margin: 0 auto;
+    }
+    
+    #aboutPicture {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .pictureAPOD {
+        margin-top: 50%;
+    }
+}

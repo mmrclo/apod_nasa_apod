@@ -1,0 +1,192 @@
+.mySlides {
+    padding: 2vh 3vw;
+}
+/* NasaFlyer */
+#nasaLogo {
+    width: 20rem;
+    height: 20rem;
+}
+
+#apod {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    color: rgba(49, 0, 95, 0.849);
+}
+
+#dicionDef {
+    color: azure;
+    margin-top: 13%;
+}
+
+/* - - - - - - - - - - - - - - - */
+
+
+/* QuestFlyer */
+
+#publiTalk {
+    margin-left: 4vw;
+    width: 30vw;
+    height: 20vh;
+}
+
+#publiText {
+    font-size: 5.8rem;
+    color: rgba(36, 0, 70, 0.849);
+}
+
+#rocketIcon {
+    position: absolute;
+    right: 5vw;
+    top: 5vw;
+}
+
+/* Date Flyer */
+
+#dateOfServiceInfo {
+    margin-top: 5%;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(53, 14, 90);
+}
+
+/* Media queries */
+@media (max-width: 1600px) {
+    /* QuestFlyer */
+    #publiText {
+        font-size: 4.0rem;
+    }
+}
+@media (max-width: 1280px) {
+    /* NasaFlyer */
+    #nasaLogo {
+        width: 17rem;
+        height: 17rem;
+    }
+    
+    #apod {
+        font-size: 2.5rem;
+    }
+
+    #dicionDef {
+        margin-top: 18%;
+    }
+
+    /* QuestFlyer */
+    #publiText {
+        font-size: 3.8rem;
+    }
+}
+
+@media (max-width: 960px) {
+    /* NasaFlyer */
+    #nasaLogo {
+        width: 17rem;
+        height: 17rem;
+    }
+
+    #apod {
+        font-size: 3.5rem;
+    }
+
+    #dicionDef {
+        margin-top: 5%;
+    }
+
+    /* QuestFlyer */
+    #publiText {
+        font-size: 3.5rem;
+    }
+
+
+    /* Date Flyer */
+    #dateOfServiceInfo {
+        margin-top: 7%;
+        font-size: 1.5rem;
+        font-style: italic;
+        color: rgb(53, 14, 90);
+    }
+}
+
+@media (max-width: 550px) {
+    /* NasaFlyer */
+    #nasaLogo {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #apod {
+        font-size: 2rem;
+    }
+
+    #dicionDef {
+        margin-top: 20%;
+    }
+    /* QuestFlyer */
+    #publiText {
+        font-size: 2.9rem;
+    }
+    /* Date Flyer */
+    #dateOfServiceInfo {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 420px) {
+    /* NasaFlyer */
+    #nasaLogo {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #apod {
+        font-size: 2.3rem;
+    }
+
+    #dicionDef {
+        margin-top: 10%;
+    }
+
+    /* QuestFlyer */
+    #publiText {
+        font-size: 2.6rem;
+    }
+
+
+    /* Date Flyer */
+    #dateOfServiceInfo {
+        margin-top: 5%;
+        font-size: 0.9rem;
+        font-style: italic;
+        color: rgb(53, 14, 90);
+    }
+}
+
+@media (max-width: 320px) {
+    /* NasaFlyer */
+    #nasaLogo {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #apod {
+        font-size: 2.1rem;
+    }
+
+    #dicionDef {
+        margin-top: 5%;
+    }
+
+    /* QuestFlyer */
+    #publiText {
+        font-size: 2.3rem;
+    }
+
+
+    /* Date Flyer */
+    #dateOfServiceInfo {
+        margin-top: 5vh;
+        font-size: 0.8rem;
+        font-style: italic;
+        color: rgb(53, 14, 90);
+    }
+}
